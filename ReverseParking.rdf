@@ -9,10 +9,10 @@
     xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
   xml:base="http://www.dotrural.ac.uk/ReverseParking">
   <owl:Ontology rdf:about="">
-    <owl:imports rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos"/>
+    <owl:imports rdf:resource="http://spitfire-project.eu/cc/parking.ttl"/>
     <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Created with TopBraid Composer</owl:versionInfo>
-    <owl:imports rdf:resource="http://spitfire-project.eu/cc/parking.ttl"/>
+    <owl:imports rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos"/>
   </owl:Ontology>
   <rdf:Property rdf:ID="observedAt">
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
@@ -26,77 +26,131 @@
   <rdf:Property rdf:ID="parallelParked">
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
   </rdf:Property>
-  <j.0:parkingCarArea rdf:ID="Edward_Wright_Building_obs2">
+  <j.0:parkingCarArea rdf:ID="Edward_Wright_Building_obs7">
+    <ReverseParking:reverseParked rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+    >87</ReverseParking:reverseParked>
+    <ReverseParking:observedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2013-11-20T11:26:00</ReverseParking:observedAt>
     <j.0:parkingsize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
     >136</j.0:parkingsize>
-    <ReverseParking:reverseParked rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
-    >77</ReverseParking:reverseParked>
     <ReverseParking:parallelParked rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
     >7</ReverseParking:parallelParked>
-    <ReverseParking:observedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
-    >2013-11-13T10:45:00</ReverseParking:observedAt>
-    <j.0:parkingfreeSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
-    >6</j.0:parkingfreeSpaces>
     <ReverseParking:forwardParked rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
-    >34</ReverseParking:forwardParked>
-    <j.0:parkingoccupiedSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
-    >118</j.0:parkingoccupiedSpaces>
+    >37</ReverseParking:forwardParked>
     <geo:lat_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >57.167292 -2.100513</geo:lat_long>
   </j.0:parkingCarArea>
-  <j.0:parkingCarArea rdf:ID="Edward_Wright_Building_obs3">
-    <ReverseParking:observedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
-    >2013-11-14T10:29:00</ReverseParking:observedAt>
-    <ReverseParking:forwardParked rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
-    >36</ReverseParking:forwardParked>
-    <ReverseParking:parallelParked rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
-    >7</ReverseParking:parallelParked>
+  <j.0:parkingCarArea rdf:ID="Edward_Wright_Building_obs6">
     <ReverseParking:reverseParked rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
-    >87</ReverseParking:reverseParked>
-    <j.0:parkingfreeSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
-    >6</j.0:parkingfreeSpaces>
-    <j.0:parkingoccupiedSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
-    >130</j.0:parkingoccupiedSpaces>
+    >80</ReverseParking:reverseParked>
+    <ReverseParking:forwardParked rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+    >32</ReverseParking:forwardParked>
     <j.0:parkingsize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
     >136</j.0:parkingsize>
+    <ReverseParking:parallelParked rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+    >7</ReverseParking:parallelParked>
+    <ReverseParking:observedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2013-11-19T10:06:00</ReverseParking:observedAt>
     <geo:lat_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >57.167292 -2.100513</geo:lat_long>
   </j.0:parkingCarArea>
   <j.0:parkingCarArea rdf:ID="Edward_Wright_Building_obs4">
     <ReverseParking:observedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
-    >2013-11-17T11:07:00</ReverseParking:observedAt>
-    <ReverseParking:forwardParked rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
-    >36</ReverseParking:forwardParked>
-    <ReverseParking:reverseParked rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
-    >67</ReverseParking:reverseParked>
-    <j.0:parkingoccupiedSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
-    >109</j.0:parkingoccupiedSpaces>
+    >2013-11-15T11:07:00</ReverseParking:observedAt>
     <ReverseParking:parallelParked rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
     >6</ReverseParking:parallelParked>
-    <j.0:parkingfreeSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
-    >27</j.0:parkingfreeSpaces>
+    <j.0:parkingsize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+    >136</j.0:parkingsize>
+    <ReverseParking:reverseParked rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+    >67</ReverseParking:reverseParked>
+    <ReverseParking:forwardParked rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+    >36</ReverseParking:forwardParked>
+    <geo:lat_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >57.167292 -2.100513</geo:lat_long>
+  </j.0:parkingCarArea>
+  <j.0:parkingCarArea rdf:ID="Edward_Wright_Building_obs5">
+    <ReverseParking:reverseParked rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+    >88</ReverseParking:reverseParked>
+    <ReverseParking:observedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2013-11-18T11:04:00</ReverseParking:observedAt>
+    <j.0:parkingsize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+    >136</j.0:parkingsize>
+    <ReverseParking:parallelParked rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+    >7</ReverseParking:parallelParked>
+    <ReverseParking:forwardParked rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+    >34</ReverseParking:forwardParked>
+    <geo:lat_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >57.167292 -2.100513</geo:lat_long>
+  </j.0:parkingCarArea>
+  <j.0:parkingCarArea rdf:ID="Edward_Wright_Building_obs8">
+    <ReverseParking:reverseParked rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+    >76</ReverseParking:reverseParked>
+    <ReverseParking:forwardParked rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+    >29</ReverseParking:forwardParked>
+    <j.0:parkingsize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+    >136</j.0:parkingsize>
+    <ReverseParking:parallelParked rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+    >7</ReverseParking:parallelParked>
+    <ReverseParking:observedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2013-11-22T11:26:00</ReverseParking:observedAt>
+    <geo:lat_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >57.167292 -2.100513</geo:lat_long>
+  </j.0:parkingCarArea>
+  <j.0:parkingCarArea rdf:ID="Edward_Wright_Building_obs9">
+    <ReverseParking:reverseParked rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+    >77</ReverseParking:reverseParked>
+    <ReverseParking:parallelParked rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+    >6</ReverseParking:parallelParked>
+    <j.0:parkingsize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+    >136</j.0:parkingsize>
+    <ReverseParking:observedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2013-11-25T11:26:00</ReverseParking:observedAt>
+    <ReverseParking:forwardParked rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+    >37</ReverseParking:forwardParked>
+    <geo:lat_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >57.167292 -2.100513</geo:lat_long>
+  </j.0:parkingCarArea>
+  <j.0:parkingCarArea rdf:ID="Edward_Wright_Building_obs2">
+    <ReverseParking:forwardParked rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+    >34</ReverseParking:forwardParked>
+    <geo:lat_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >57.167292 -2.100513</geo:lat_long>
+    <ReverseParking:observedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2013-11-13T10:45:00</ReverseParking:observedAt>
+    <ReverseParking:parallelParked rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+    >7</ReverseParking:parallelParked>
+    <ReverseParking:reverseParked rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+    >77</ReverseParking:reverseParked>
+    <j.0:parkingsize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+    >136</j.0:parkingsize>
+  </j.0:parkingCarArea>
+  <j.0:parkingCarArea rdf:ID="Edward_Wright_Building_obs3">
     <j.0:parkingsize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
     >136</j.0:parkingsize>
     <geo:lat_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >57.167292 -2.100513</geo:lat_long>
-  </j.0:parkingCarArea>
-  <j.0:parkingCarArea rdf:ID="Edward_Wright_Building_obs1">
-    <j.0:parkingsize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
-    >136</j.0:parkingsize>
-    <ReverseParking:forwardParked rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
-    >33</ReverseParking:forwardParked>
+    <ReverseParking:reverseParked rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+    >87</ReverseParking:reverseParked>
     <ReverseParking:parallelParked rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
     >7</ReverseParking:parallelParked>
-    <ReverseParking:reverseParked rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
-    >80</ReverseParking:reverseParked>
-    <j.0:parkingfreeSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
-    >6</j.0:parkingfreeSpaces>
-    <j.0:parkingoccupiedSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
-    >120</j.0:parkingoccupiedSpaces>
+    <ReverseParking:forwardParked rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+    >36</ReverseParking:forwardParked>
+    <ReverseParking:observedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2013-11-14T10:29:00</ReverseParking:observedAt>
+  </j.0:parkingCarArea>
+  <j.0:parkingCarArea rdf:ID="Edward_Wright_Building_obs1">
     <ReverseParking:observedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
     >2013-11-12T10:03:00</ReverseParking:observedAt>
     <geo:lat_long rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >57.167292 -2.100513</geo:lat_long>
+    <ReverseParking:reverseParked rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+    >80</ReverseParking:reverseParked>
+    <ReverseParking:parallelParked rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+    >7</ReverseParking:parallelParked>
+    <ReverseParking:forwardParked rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+    >33</ReverseParking:forwardParked>
+    <j.0:parkingsize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+    >136</j.0:parkingsize>
   </j.0:parkingCarArea>
 </rdf:RDF>
 
